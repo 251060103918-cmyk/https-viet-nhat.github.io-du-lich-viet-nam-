@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cẩm Nang Du Lịch Việt Nam - Khám Phá Vẻ Đẹp Bất Tận</title>
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #2980b9;
+            --accent-color: #e74c3c;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #2c3e50;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        header, nav, main, footer {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+        }
+
+        nav {
+            background: #ffffff;
+            margin-top: 15px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        nav a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        section, article {
+            background: var(--card-bg);
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #eef2f5;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        figure {
+            margin: 0;
+            width: 31%;
+            min-width: 240px;
+            background: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        figure img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        figcaption {
+            padding: 10px;
+            font-size: 0.9em;
+            text-align: center;
+            color: #555;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eef2f5;
+            color: var(--primary-color);
+        }
+
+        .external-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--secondary-color);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .external-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Thẻ ngữ nghĩa header -->
+    <header>
+        <h1>Khám Phá Du Lịch Việt Nam</h1>
+        <p>Hành trình tìm hiểu danh lam thắng cảnh và văn hóa ẩm thực ba miền</p>
+    </header>
+
+    <!-- Thẻ nav điều hướng -->
+    <nav>
+        <a href="#gioi-thieu">Giới Thiệu</a>
+        <a href="#dia-diem">Địa Điểm Nổi Bật</a>
+        <a href="#hinh-anh">Thư Viện Ảnh</a>
+        <a href="#kinh-nghiem">Lưu Ý & Giá Cả</a>
+    </nav>
+
+    <!-- 2. Thẻ ngữ nghĩa main -->
+    <main>
+
+        <!-- Phần 1: Giới thiệu -->
+        <section id="gioi-thieu">
+            <h2>Giới Thiệu Chung</h2>
+            <p>
+                Việt Nam là một quốc gia xinh đẹp nằm ở khu vực Đông Nam Á với dải đất hình chữ S trải dài. 
+                Nơi đây sở hữu đường bờ biển dài vượt trội, nhiều di sản thiên nhiên thế giới cùng nền văn hóa phong phú, đa dạng đậm đà bản sắc dân tộc.
+            </p>
+        </section>
+
+        <!-- Phần 2: Danh sách địa điểm -->
+        <section id="dia-diem">
+            <h2>Top 3 Điểm Đến Vùng Miền Tiêu Biểu</h2>
+            <p>Mỗi miền đất Việt Nam đều mang một vẻ đẹp riêng biệt thu hút du khách trong và ngoài nước:</p>
+            
+            <article>
+                <h3>1. Vịnh Hạ Long (Miền Bắc)</h3>
+                <p>Kỳ quan thiên nhiên thế giới nổi tiếng với hàng nghìn đảo đá vôi nhấp nhô trên làn nước xanh ngọc bích.</p>
+            </article>
+
+            <article>
+                <h3>2. Phố Cổ Hội An (Miền Trung)</h3>
+                <p>Nơi lưu giữ nét kiến trúc cổ kính với những ngôi nhà tường vàng, đèn lồng rực rỡ và nền ẩm thực phong phú.</p>
+            </article>
+
+            <article>
+                <h3>3. Thành Phố Đà Lạt (Miền Nam - Tây Nguyên)</h3>
+                <p>Thành phố ngàn hoa sở hữu khí hậu mát mẻ quanh năm, những đồi thông bạt ngàn và kiến trúc Pháp lãng mạn.</p>
+            </article>
+
+            <h3>Danh Sách Các Hoạt Động Không Thể Bỏ Qua:</h3>
+            <ul>
+                <li>Đi du thuyền thưởng ngoạn hoàng hôn trên Vịnh Hạ Long.</li>
+                <li>Tản bộ ngắm đèn lồng và đi thuyền thả hoa đăng tại Hội An.</li>
+                <li>Thưởng thức cà phê ngắm mây mù bạt ngàn tại Đà Lạt.</li>
+            </ul>
+        </section>
+
+        <!-- Phần 3: Thư viện hình ảnh có thẻ figure/figcaption -->
+        <section id="hinh-anh">
+            <h2>Hình Ảnh Minh Họa Cảnh Quan</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1528127269322-539801943592?w=500" alt="Vịnh Hạ Long với núi đá vôi trên biển">
+                    <figcaption>Vịnh Hạ Long - Quảng Ninh</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=500" alt="Cảnh thiên nhiên núi rừng sông nước Việt Nam">
+                    <figcaption>Khung cảnh thiên nhiên Việt Nam</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500" alt="Bãi biển cát trắng nắng vàng tuyệt đẹp">
+                    <figcaption>Bãi biển duyên hải miền Trung</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Phần 4: Bảng giá tham khảo & Link ngoài -->
+        <section id="kinh-nghiem">
+            <h2>Dự Trù Chi Phí Du Lịch Mẫu</h2>
+            <p>Bảng chi phí ước tính trung bình cho chuyến du lịch 3 ngày 2 đêm:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hạng Mục</th>
+                        <th>Chi Phí Ước Tính (VNĐ)</th>
+                        <th>Ghi Chú</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Di chuyển</td>
+                        <td>1.500.000đ - 3.000.000đ</td>
+                        <td>Vé máy bay / Xe khách khứ hồi</td>
+                    </tr>
+                    <tr>
+                        <td>Lưu trú</td>
+                        <td>1.000.000đ - 2.500.000đ</td>
+                        <td>Khách sạn 3 sao / Homestay</td>
+                    </tr>
+                    <tr>
+                        <td>Ăn uống & Tham quan</td>
+                        <td>1.500.000đ - 2.000.000đ</td>
+                        <td>Trải nghiệm ẩm thực địa phương</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="margin-top: 20px;">
+                Tìm hiểu thêm thông tin chi tiết về các di sản văn hóa tại: 
+                <a class="external-link" href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">
+                    Trang Bách Khoa Toàn Thư Wikipedia
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- 3. Thẻ ngữ nghĩa footer -->
+    <footer>
+        <p>&copy; 2026 Bài Tập Thiết Kế Web HTML5. Bảo lưu mọi quyền.</p>
+        <p>Thực hiện nhằm hoàn thành dự án đánh giá kỹ năng trang web Coursera.</p>
+    </footer>
+
+</body>
+</html>
